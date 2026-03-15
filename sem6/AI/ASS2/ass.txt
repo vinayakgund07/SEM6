@@ -1,0 +1,14 @@
+#SMART HOME SYSTEM
+time=input("Is it evening?(Yes/No):")
+someone_at_home= input("Is someone at home(Yes/No):")
+temp=input("Enter the tempearture:")
+after_9pm=input("Is it after 9 pm"(Yes/No)
+
+def smart_home_system():
+    if time == 'Yes' and someone_at_home == 'Yes':
+        print("Action:Turn on lights")
+    if temp<18:
+        print("Action:Turn on heating")
+    if after_9pm == 'Yes':
+        print("Action:Lower the thermostat")
+smart_home_system()
